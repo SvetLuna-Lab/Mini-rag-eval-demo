@@ -1,0 +1,9 @@
+This repository is a small RAG evaluation demo.
+
+It combines three very simple components:
+- a TF-IDF based document indexer,
+- a minimal RAG pipeline (retrieve + synthetic answer),
+- and a tiny evaluation module with lexical metrics.
+
+The goal is not to reach state-of-the-art performance, but to show
+how retrieval and evaluation can be wired together in a clean way.
