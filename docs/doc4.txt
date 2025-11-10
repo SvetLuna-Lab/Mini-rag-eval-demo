@@ -1,0 +1,13 @@
+This demo is intentionally small and transparent.
+
+It is designed to highlight good engineering habits on a toy example:
+- clear separation of components (indexer, pipeline, evaluation),
+- simple tests that validate basic behaviour,
+- and a command-line interface to run questions and see metrics.
+
+In a real production system you would replace:
+- the TF-IDF indexer with a more advanced retriever,
+- the simple LLM stub with a real language model,
+- and the lexical metrics with richer evaluation pipelines.
+
+But the overall structure would remain very similar.
