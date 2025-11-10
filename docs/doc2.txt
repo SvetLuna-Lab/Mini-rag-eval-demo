@@ -1,0 +1,10 @@
+RAG stands for Retrieval-Augmented Generation.
+
+Instead of relying only on parametric knowledge inside a language model,
+a RAG system retrieves external documents and uses them as context
+for answer generation.
+
+Evaluating RAG quality is not trivial. It usually includes:
+- checking whether the retrieved documents are relevant,
+- checking whether the final answer is grounded in these documents,
+- and measuring answer quality with automatic and human metrics.
