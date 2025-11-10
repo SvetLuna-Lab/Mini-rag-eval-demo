@@ -1,0 +1,13 @@
+Lexical metrics such as precision, recall, F1-score and Jaccard overlap
+can be used as a very simple starting point for RAG evaluation.
+
+They compare the tokens of a predicted answer with the tokens of
+a reference answer and compute how much they overlap.
+
+These metrics are not perfect:
+- they ignore word order,
+- they do not understand synonyms,
+- they do not measure factual correctness.
+
+However, they are easy to implement and can be useful for quick,
+rough comparisons between different system variants.
